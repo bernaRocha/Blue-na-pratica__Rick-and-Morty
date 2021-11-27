@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty characters</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/card__list.css">
+</head>
+<body>
+
+  <header>
+    <img src="./img/logo.png" alt="Logo do Rick and Morty" class="logo">
+  </header>
+
+  <main class="container">
+    <form class="form" onsubmit="searchCharacters(event)">
+      <input type="text" name="buscar" class="input-buscar" placeholder="Digite o nome do personagem" />
+      <button type="submit">Buscar</button>
+    </form>
+  </main>
+           <!-- area de cards -->
+  <section class="list" id="list">
+
+  </section>
+  <div class="buttons">
+    <button class="prev" onclick="prevPage()">prev</button>
+    <button class="next" onclick="nextPage()">next</button>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=Jcw821B1gR8&ab_channel=BlueEdTech -->

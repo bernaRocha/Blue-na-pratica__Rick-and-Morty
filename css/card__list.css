@@ -1,0 +1,45 @@
+.list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 23%;
+  margin: 0.5rem;
+  background-color: white;
+  color: black;
+}
+
+.card__header {
+  padding: 1rem;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__header .card__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card__img img {
+  width: 100%;
+  height: auto;
+}
+
+.card__body {
+  padding: 1rem;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card__body p {
+  font-size: 1.2rem;
+}
+
